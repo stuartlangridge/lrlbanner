@@ -33,3 +33,6 @@ Array.from(document.querySelectorAll("footer a")).forEach(function(a) {
     }
     a.onmouseout = function() { target.classList.remove("show"); }
 })
+let unid = document.getElementById("unid");
+unid.onmouseover = function() { document.body.classList.add("unid"); }
+unid.onmouseout = function() { document.body.classList.remove("unid"); }

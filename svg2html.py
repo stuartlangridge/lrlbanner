@@ -29,6 +29,7 @@ namehtml = []
 byname = sorted([(names[id]["name"], id) for id in names], key=lambda x:x[0].lower())
 for name, id in byname:
     namehtml.append('<a href="#{}" data-id="{}">{}</a>'.format(id, id, name))
+namehtml.append("and <strong id='unid'>{} unidentified names</strong>")
 
 out = """<!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
