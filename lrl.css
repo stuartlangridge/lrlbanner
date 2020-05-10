@@ -117,4 +117,5 @@ footer {
 
 body.unid figure a[href="#"] {
     border: 3px solid red;
+    opacity: 1;
 }
