@@ -1,0 +1,114 @@
+html, body {
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+}
+article {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    overflow: auto;
+    width: 100vw;
+    height: 80vh;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2048px;
+    height: 1536px;
+    margin: 0;
+    padding: 0;
+}
+figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+figure div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2048px;
+    height: 1536px;
+    margin: 0;
+    padding: 0;
+}
+figure a {
+    position: absolute;
+    border: 1px solid #cfc;
+    background: rgba(200, 255, 200, 0.3);
+    opacity: 0.2;
+}
+figure a[href="#"] {
+    border: 1px solid #fcc;
+    background: rgba(255, 200, 200, 0.3);
+}
+figure a:hover, figure a.show {
+    opacity: 1;
+    outline: 2000px solid rgba(0,0,0,0.6);
+    background: transparent;
+    z-index: 4;
+}
+figure a::after, figure a::before {
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    z-index: 3;
+    background: white;
+    color: black;
+    overflow: hidden;
+    content: attr(data-name);
+    display: none;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+figure a::before {
+    top: -30px;
+    bottom: 100%;
+    line-height: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+figure a[href="#"]::before {
+    background: #fcc;
+    text-decoration: none;
+    color: #600;
+}
+figure a::after {
+    top: 100%;
+    left: -1px;
+    right: -1px;
+    bottom: -14px;
+    text-align: right;
+    font-size: 8px;
+    direction: rtl;
+    content: attr(id);
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+figure a:hover::before, figure a:hover::after, figure a.show::before, figure a.show::after {
+    display: block;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    padding: 0.3em 1em;
+    box-sizing: border-box;
+}
