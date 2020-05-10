@@ -51,5 +51,5 @@ out = """<!doctype html>
 <footer>Names already identified: {}</footer>
 <script src="lrl.js"></script>
 </body></html>""".format("\n".join(recthtml), ", ".join(namehtml))
-with open("lrlbanner.html", encoding="utf-8", mode="w") as fp:
+with open("index.html", encoding="utf-8", mode="w") as fp:
     fp.write(out)
