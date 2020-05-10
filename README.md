@@ -10,7 +10,7 @@ Who are all these people on it?
 
 That's what this is to find out.
 
-Look at <a href="https://kryogenix.org/lrlbanner">kryogenix.org/lrlbanner</a> to see the banner with annotated names. If you know any of them that aren't already marked, then post a reply to that tweet with the box number (which is in the bottom right when you mouse over a name), who it is, and a link to their Twitter page (or some other URL if they're not on Twitter, but ideally Twitter, please).
+Look at <a href="https://lugradio.org/lrlbanner">lugradio.org/lrlbanner</a> to see the banner with annotated names. If you know any of them that aren't already marked, then post a reply to <a href="https://twitter.com/sil/status/1259520998967324672">this tweet here</a> with the box number (which is in the bottom right when you mouse over a name), who it is, and a link to their Twitter page (or some other URL if they're not on Twitter, but ideally Twitter, please).
 
 Maybe we can fill them all in!
 
