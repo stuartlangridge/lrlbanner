@@ -49,8 +49,8 @@ out = """<!doctype html>
     </div>
 </figure>
 </article>
-<footer>Names already identified: {}</footer>
+<footer>{} names already identified: {}</footer>
 <script src="lrl.js"></script>
-</body></html>""".format("\n".join(recthtml), ", ".join(namehtml))
+</body></html>""".format("\n".join(recthtml), len(namehtml) ", ".join(namehtml))
 with open("index.html", encoding="utf-8", mode="w") as fp:
     fp.write(out)
