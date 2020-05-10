@@ -5,7 +5,6 @@
     let startX = 0, startY = 0, scrollX = 0, scrollY = 0, zoom = 1;
     function mm(e) {
         let dx = e.pageX - startX, dy = e.pageY - startY;
-        console.log(dx, dy);
         art.scrollTo(scrollX - dx, scrollY - dy);
     }
     function mu(e) {
