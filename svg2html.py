@@ -20,9 +20,9 @@ for r in dom.getElementsByTagName("rect"):
     height = (float(r.getAttribute("height")) / h) * 100
     id = r.getAttribute("id").replace("rect", "")
     html = '''<a href="{}" draggable="false" style="top: {:0.2f}%; left: {:0.2f}%; width: {:0.2f}%; height: {:0.2f}%"
-        id="{}" data-name="{}"></a>'''.format(names.get(id, {}).get("url", "#"),
+        id="{}" data-name="{}" title="{}"></a>'''.format(names.get(id, {}).get("url", "#"),
             top, left, width, height, id,
-            names.get(id, {}).get("name", "???"))
+            names.get(id, {}).get("name", "???"), names.get(id, {}).get("name", ""))
     recthtml.append(html)
 
 namehtml = []

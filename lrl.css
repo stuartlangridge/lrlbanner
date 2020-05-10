@@ -38,8 +38,8 @@ figure div {
 }
 figure a {
     position: absolute;
-    border: 1px solid #cfc;
-    background: rgba(200, 255, 200, 0.3);
+    border: 1px solid #0f0;
+    background: rgba(0, 255, 0, 0.3);
     opacity: 0.2;
 }
 figure a[href="#"] {
