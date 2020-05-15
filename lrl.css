@@ -114,6 +114,7 @@ footer {
     font-size: 10px;
     font-size: calc(8px + 0.5vw);
 }
+footer a.hi { background: #8f8; }
 
 body.unid figure a[href="#"] {
     border: 3px solid red;

@@ -33,6 +33,12 @@ Array.from(document.querySelectorAll("footer a")).forEach(function(a) {
     }
     a.onmouseout = function() { target.classList.remove("show"); }
 })
+Array.from(document.querySelectorAll("figure a")).forEach(function(a) {
+    let target = document.querySelector('footer a[data-id="' + a.id + '"]');
+    if (!target) return;
+    a.onmouseover = function() { target.classList.add("hi"); }
+    a.onmouseout = function() { target.classList.remove("hi"); }
+})
 let unid = document.getElementById("unid");
 unid.onmouseover = function() { document.body.classList.add("unid"); }
 unid.onmouseout = function() { document.body.classList.remove("unid"); }
